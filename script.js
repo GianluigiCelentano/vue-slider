@@ -19,13 +19,13 @@ const app = new Vue ({
     methods: {
         nextImage: function(){
             this.photoIndex++
-            if(this.photoIndex === (this.images.length -1)) {
+            if(this.photoIndex === (this.images.length )) {
                 this.photoIndex = 0
             }
         },
         prevImage: function(){
             this.photoIndex--
-            if(this.photoIndex === 0 -1) {
+            if(this.photoIndex === -1) {
                 this.photoIndex = this.images.length -1
             }
         },
