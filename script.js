@@ -35,6 +35,9 @@ const app = new Vue ({
             } else {
                 return ''
             }
+        },
+        currentImage: function(index) {
+            this.photoIndex = index
         }
     }
 })

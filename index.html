@@ -18,7 +18,7 @@
                 <img :src="images[photoIndex]" class="images" alt="">
             </div>
             <div class="flex col-1"><i @click='nextImage' class="cursor fas fa-chevron-circle-right"></i></div>
-            <div><i :class="currentDot(index)" v-for="(img, index) in images" class="circles fas fa-circle"></i></div>
+            <div><i :class="currentDot(index)" v-for="(img, index) in images" @click=currentImage(index) class="circles fas fa-circle"></i></div>
         </div>
     </div>
     <script src="script.js"></script>
