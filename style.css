@@ -18,3 +18,10 @@
 .current {
     color: lightslategray;
 }
+.doggy-container {
+    height: 50px;
+    background-color: lightskyblue;
+}
+.container {
+    padding-top: 50px;
+}
