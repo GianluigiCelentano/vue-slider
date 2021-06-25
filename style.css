@@ -1,0 +1,20 @@
+.images {
+    height: 600px;
+    width: 900px;
+}
+.cursor {
+    cursor: pointer;
+    font-size: 40px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.circles {
+    padding: 10px;
+    color: lightgrey;
+    cursor: pointer;
+}
+.current {
+    color: lightslategray;
+}
